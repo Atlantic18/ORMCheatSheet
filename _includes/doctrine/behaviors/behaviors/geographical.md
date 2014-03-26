@@ -1,0 +1,1 @@
+The Geographical behavior can be used with any data record for determining the number of miles or kilometers between 2 records.

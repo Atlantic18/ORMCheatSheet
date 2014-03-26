@@ -1,0 +1,12 @@
+<p>
+
+{% if documentation != '' %}
+For more details <a href="{{documentation}}">check the documentation</a>{% if tutorial == '' %}.
+
+{% else %}, or go and see how to <a href="{{tutorial}}">do this in few clicks</a>.{% endif %}
+
+{% elsif tutorial != '' %}
+You can go and see how to <a href="{{tutorial}}">do this in few clicks</a>.
+{% endif %}
+
+</p>

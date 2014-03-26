@@ -1,0 +1,1 @@
+Mapped supperclass inheritance child:

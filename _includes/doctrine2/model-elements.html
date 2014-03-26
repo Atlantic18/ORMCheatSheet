@@ -1,0 +1,64 @@
+<h1>Doctrine2 Model Elements</h1>
+{% assign rootdir='doctrine2/elements/' %}
+{% assign imgsource='/images/elements/' %}
+
+<h2>Schema file structure</h2>
+{% assign element='schemafile/' %}
+{% assign documentation='' %}
+{% assign tutorial='#designer' %}
+
+{% assign file='schemafile.md' %}
+{% assign imgfile='model.png'%}
+{% assign usedtabs='xml, yml, php, link' %}
+{% include section.html %}
+
+{% include elem_docu.html%}
+
+<h2 id="entity">Entity</h2>
+{% assign element='entity/' %}
+{% assign documentation='' %}
+{% assign tutorial='#designer' %}
+{% include doctrine2/elements/entity.html %}
+{% include elem_docu.html%}
+
+<h2 id="id">Id</h2>
+{% assign element='field/' %}
+{% assign documentation='' %}
+{% assign tutorial='#designer' %}
+{% include doctrine2/elements/id.html%}
+{% include elem_docu.html%}
+
+<h2 id="field">Field</h2>
+{% assign element='field/' %}
+{% assign documentation='' %}
+{% assign tutorial='#designer' %}
+{% include doctrine2/elements/field.html%}
+{% include elem_docu.html%}
+
+<h2 id="indexes">Index</h2>
+{% assign element='index/' %}
+{% assign documentation='' %}
+{% assign tutorial='#designer' %}
+{% include doctrine2/elements/indexes.html%}
+{% include elem_docu.html%}
+
+<h2 id="association">Association</h2>
+{% assign element='association/' %}
+{% assign documentation='' %}
+{% assign tutorial='#designer' %}
+{% include doctrine2/elements/association.html%}
+{% include elem_docu.html%}
+
+<h2 id="manytomany">MN Association</h2>
+{% assign element='mnassoc/' %}
+{% assign documentation='' %}
+{% assign tutorial='#designer' %}
+{% include doctrine2/elements/mnassociation.html%}
+{% include elem_docu.html%}
+
+<h2 id="inheritance">Inheritance</h2>
+{% assign element='inheritance/' %}
+{% assign documentation='' %}
+{% assign tutorial='#designer' %}
+{% include doctrine2/elements/inheritance.html%}
+{% include elem_docu.html%}

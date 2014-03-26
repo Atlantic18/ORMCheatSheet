@@ -1,0 +1,1 @@
+ReferenceIntegrity behavior will automate the reference integrity for referenced documents.

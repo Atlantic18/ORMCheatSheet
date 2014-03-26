@@ -1,0 +1,1 @@
+Many to one owner side using non-PK foreign key:

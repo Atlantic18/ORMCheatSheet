@@ -1,0 +1,1 @@
+Uploadable behavior provides the tools to manage the persistence of files with Doctrine 2, including automatic handling of moving, renaming and removal of files and other features.

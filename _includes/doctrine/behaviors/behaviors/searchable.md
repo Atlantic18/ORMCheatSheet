@@ -1,0 +1,1 @@
+The Searchable behavior is a fulltext indexing and searching tool.

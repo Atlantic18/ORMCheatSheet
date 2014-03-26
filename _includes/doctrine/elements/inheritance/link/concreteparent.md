@@ -1,0 +1,1 @@
+Class table inheritance parent:

@@ -1,0 +1,5 @@
+{% capture path %}{{rootdir}}{{element}}{{format}}{{file}}{% endcapture %}
+
+{% capture code %}{% include {{path}} %}{%endcapture%}
+
+{{ code | markdownify }}

@@ -1,0 +1,1 @@
+Single table inheritance parrent:

@@ -1,0 +1,1 @@
+Simple table inheritance child:

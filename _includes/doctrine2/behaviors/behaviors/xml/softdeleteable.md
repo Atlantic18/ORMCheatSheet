@@ -1,0 +1,20 @@
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping 
+ xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+ xmlns:gedmo="http://gediminasm.org/schemas/orm/doctrine-extensions-mapping">
+
+  <entity name="Mapping\Fixture\Xml\Timestampable" table="timestampables">
+    <id name="id" type="integer" column="id">
+      <generator strategy="AUTO"/>
+    </id>
+
+    <field name="title" type="string" />
+
+    <field name="deletedAt" type="datetime" nullable="true" />
+
+    <gedmo:soft-deleteable field-name="deletedAt" time-aware="false" />
+  </entity>
+
+</doctrine-mapping>
+```

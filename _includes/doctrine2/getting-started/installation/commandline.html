@@ -1,0 +1,27 @@
+{% assign rootdir='doctrine2/getting-started/' %}
+{% assign element='installation/' %}
+{% assign format='' %}
+{% assign file='commandline.md' %}
+
+{% include getcode.html %}
+
+   <div class="row">
+      <div class="large-12 columns">
+        
+        <dl class="tabs" data-tab>
+          <dd class="active"><a href="#tool24">version 2.4 and newer</a></dd>
+		  <dd><a href="#tool23">version 2.3 and older</a></dd>
+        </dl>
+        
+        <div class="tabs-content">
+                <div class="content active" id="tool24">
+				{% assign file='commandline24.md' %}
+				{% include getcode.html %}
+				</div>
+				<div class="content" id="tool23">
+				{% assign file='commandline23.md' %}
+				{% include getcode.html %}
+				</div>
+        </div>
+      </div>
+	  </div>

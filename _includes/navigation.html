@@ -1,0 +1,32 @@
+ <div class="hd">
+    <div class="row">
+      <div class="large-5 columns">
+        <h1 id="top"><a href="/">ORM Cheat Sheet</a></h1>
+      </div>
+      <div class="large-7 columns">
+        <ul class="button-group radius">
+          <li><a href="/" class="small button {% if framework != 'Doctrine 2' %}secondary{% endif %}">Doctrine 2</a></li>
+          <li><a href="/doctrine/" class="small button {% if framework != 'Doctrine' %}secondary{% endif %}">Doctrine</a></li>
+          <li><a href="#" class="small button disabled {% if framework != 'Propel' %}secondary{% endif %}">Propel</a></li>
+          <li><a href="#" class="small button disabled {% if framework != 'CakePHP' %}secondary{% endif %}">Cake PHP</a></li>
+          <li><a href="/about/" class="small button {% if framework != 'about' %}secondary{% endif %}">About</a></li>
+        </ul>
+      </div>
+    </div>
+
+    {% if framework != 'about' %}
+      <div class="magellan" data-magellan-expedition="fixed">
+        <div class="row">
+          <div class="large-12 columns">
+            <dl class="sub-nav">
+              <dd data-magellan-arrival="build"><a href="#top">Top</a></dd>
+              {% if framework == 'Doctrine 2' %}{% include navigation_doctrine2.html %}{% endif %}
+              {% if framework == 'Doctrine' %}{% include navigation_doctrine1.html %}{% endif %}
+              {% if framework == 'CakePHP' %}{% include navigation_general.html %}{% endif %}
+              {% if framework == 'Propel' %}{% include navigation_general.html %}{% endif %}
+            </dl>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  </div>

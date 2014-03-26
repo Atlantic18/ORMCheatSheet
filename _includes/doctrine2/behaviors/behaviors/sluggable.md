@@ -1,0 +1,1 @@
+Sluggable behavior will build the slug of predefined fields on a given field which should store the slug.
