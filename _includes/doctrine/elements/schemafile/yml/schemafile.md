@@ -1,4 +1,4 @@
-```YAML
+~~~YAML
 book:
   columns:
     id:
@@ -24,4 +24,4 @@ authorHasitemRecord:
   columns:
     author_id:
     item_record_id:
-```
+~~~

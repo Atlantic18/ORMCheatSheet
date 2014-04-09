@@ -1,6 +1,6 @@
 Add DoctrineModule, DoctrineORMModule and DoctrineExtensions to composer.json file:
 
-```json
+~~~json
 {
     "require": {
         "php": ">=5.3.3",
@@ -10,6 +10,6 @@ Add DoctrineModule, DoctrineORMModule and DoctrineExtensions to composer.json fi
         "gedmo/doctrine-extensions": "2.3.*",
     }
 }
-```
+~~~
     
 Then run `composer.phar update`.

@@ -1,4 +1,4 @@
-```YAML
+~~~YAML
 author:
   type: entity
   fields:
@@ -24,4 +24,4 @@ author:
           bookId:
             referencedColumnName: itemRecord_id
             nullable: false
-```
+~~~

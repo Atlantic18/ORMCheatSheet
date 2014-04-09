@@ -1,4 +1,4 @@
-```yaml
+~~~yaml
 ---
 Entity\Article:
   type: entity
@@ -22,4 +22,4 @@ Entity\Article:
         - versioned
     content:
       type: text
-```
+~~~

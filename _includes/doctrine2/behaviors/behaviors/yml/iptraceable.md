@@ -1,4 +1,4 @@
-```yaml
+~~~yaml
 ---
 Entity\Article:
   type: entity
@@ -26,4 +26,4 @@ Entity\Article:
       gedmo:
         ipTraceable:
           on: update
-```
+~~~

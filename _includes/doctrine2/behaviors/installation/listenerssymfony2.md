@@ -1,6 +1,6 @@
 Edit and create an *yml* service file in your `app/config/doctrine_extensions.yml`
 
-```YAML
+~~~YAML
 # services to handle doctrine extensions
 # import it in config.yml
 services:
@@ -60,11 +60,11 @@ services:
             - { name: doctrine.event_subscriber, connection: default }
         calls:
             - [ setAnnotationReader, [ @annotation_reader ] ]
-```
+~~~
 **Note:** You will need to create `Acme\DemoBundle\Listener\DoctrineExtensionListener` if you use **loggable** or **translatable** behaviors. This listener will set the `locale used` from request and `username` to
 loggable.
 
-```php
+~~~php
 <?php
 
 // file: src/Acme/DemoBundle/Listener/DoctrineExtensionListener.php
@@ -102,10 +102,10 @@ class DoctrineExtensionListener implements ContainerAwareInterface
         }
     }
 }
-```
+~~~
 Do not forget to import **doctrine_extensions.yml** in your **app/config/config.yml** etc.:
 
-```YAML
+~~~YAML
 # file: app/config/config.yml
 imports:
     - { resource: parameters.yml }
@@ -113,4 +113,4 @@ imports:
     - { resource: doctrine_extensions.yml }
 
 # ... configuration follows
-```
+~~~

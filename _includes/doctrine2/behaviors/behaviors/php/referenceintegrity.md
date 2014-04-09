@@ -1,4 +1,4 @@
-```PHP
+~~~PHP
 <?php
 namespace Document;
 
@@ -29,4 +29,4 @@ class Type
 
     // ...
 }
-```
+~~~

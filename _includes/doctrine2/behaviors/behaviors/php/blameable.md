@@ -1,4 +1,4 @@
-```PHP
+~~~PHP
 <?php
 namespace Entity;
 
@@ -87,4 +87,4 @@ class Article
         return $this->contentChangedBy;
     }
 }
-```
+~~~

@@ -1,4 +1,4 @@
-```yaml
+~~~yaml
 ---
 Entity\File:
   type: entity
@@ -33,4 +33,4 @@ Entity\File:
       type: decimal
       gedmo:
         - uploadableFileSize
-```
+~~~

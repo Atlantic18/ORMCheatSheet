@@ -1,4 +1,4 @@
-```YAML
+~~~YAML
 author:
   type: entity
   fields:
@@ -8,4 +8,4 @@ author:
   indexes:
     ix_name_last:
       columns: [lastName]
-```
+~~~

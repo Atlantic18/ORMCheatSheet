@@ -1,4 +1,4 @@
-```PHP
+~~~PHP
 <?php
 namespace Entity;
 
@@ -66,4 +66,4 @@ class Item
         return $this->category;
     }
 }
-```
+~~~

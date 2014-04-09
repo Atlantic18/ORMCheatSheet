@@ -1,6 +1,6 @@
 Declaring appropriate subscribers in Event Manager settings. With [entity mapping options](https://github.com/doctrine/DoctrineORMModule#entities-settings) module configuration file should look like this:
 
-```php
+~~~php
 return array(
     'doctrine' => array(
         'eventmanager' => array(
@@ -30,4 +30,4 @@ return array(
         ),
     ),
 );
-```
+~~~

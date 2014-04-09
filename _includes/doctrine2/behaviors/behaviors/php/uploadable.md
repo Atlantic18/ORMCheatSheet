@@ -1,4 +1,4 @@
-```PHP
+~~~PHP
 <?php
 namespace Entity;
 
@@ -50,4 +50,4 @@ class File
 
     // Other methods..
 }
-```
+~~~

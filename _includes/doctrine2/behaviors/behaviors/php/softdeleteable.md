@@ -1,4 +1,4 @@
-```PHP
+~~~PHP
 <?php
 namespace Entity;
 
@@ -53,4 +53,4 @@ class Article
         $this->deletedAt = $deletedAt;
     }
 }
-```
+~~~

@@ -1,4 +1,4 @@
-```YAML
+~~~YAML
 itemRecord:
   type: entity
   manyToMany:
@@ -15,4 +15,4 @@ itemRecord:
           author_id:
             referencedColumnName: id
             nullable: false
-```
+~~~

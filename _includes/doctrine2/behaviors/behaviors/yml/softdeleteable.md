@@ -1,4 +1,4 @@
-```yaml
+~~~yaml
 ---
 Entity\Article:
   type: entity
@@ -18,4 +18,4 @@ Entity\Article:
     deletedAt:
       type: date
       nullable: true
-```
+~~~

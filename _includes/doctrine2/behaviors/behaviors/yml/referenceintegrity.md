@@ -1,4 +1,4 @@
-```YAML
+~~~YAML
 ---
 Document\Type:
   type: document
@@ -15,4 +15,4 @@ Document\Type:
           targetDocument: Document\Article
           gedmo:
               referenceIntegrity: nullify   # or restrict
-```
+~~~

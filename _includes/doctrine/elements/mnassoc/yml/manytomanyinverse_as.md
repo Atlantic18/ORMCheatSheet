@@ -1,4 +1,4 @@
-```YAML
+~~~YAML
 author:
   columns:
     id:
@@ -10,4 +10,4 @@ author:
       refClass: authorHasitemRecord
       local: author_id
       foreign: item_record_id
-```
+~~~

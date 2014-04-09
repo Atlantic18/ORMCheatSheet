@@ -7,7 +7,7 @@ with composer](http://github.com/KnpLabs/symfony-with-composer):
 
 Add the **gedmo/doctrine-extensions** into **composer.json**
 
-```JSON
+~~~JSON
 {
     "require": {
         "php":              ">=5.3.2",
@@ -29,7 +29,7 @@ Add the **gedmo/doctrine-extensions** into **composer.json**
         }
     }
 }
-```
+~~~
 
 Update vendors: `php composer.phar update gedmo/doctrine-extensions`
 Configure your database connection parameters: `app/config/parameters.ini`

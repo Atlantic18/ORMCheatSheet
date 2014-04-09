@@ -1,4 +1,4 @@
-```YAML
+~~~YAML
 author:
   type: entity
   fields:
@@ -7,4 +7,4 @@ author:
     itemRecords:
       targetEntity: itemRecord
       mappedBy: authors
-```
+~~~

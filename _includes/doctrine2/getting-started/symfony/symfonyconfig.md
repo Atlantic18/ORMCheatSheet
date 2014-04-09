@@ -1,4 +1,5 @@
 Configure `config/databases.yml` for database connection:
+
 ~~~YAML
 all:
   doctrine:
@@ -14,6 +15,7 @@ all:
 ####Configure Your Schema
 
 Below is an example of a simple User entity:
+
 ~~~YAML
 # config/doctrine/schema.yml
  

@@ -1,4 +1,4 @@
-```yaml
+~~~yaml
 ---
 Entity\Item:
   type: entity
@@ -21,4 +21,4 @@ Entity\Item:
       length: 128
       gedmo:
         - sortableGroup
-```
+~~~

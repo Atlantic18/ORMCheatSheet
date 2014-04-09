@@ -1,4 +1,5 @@
-Add required bundles to composer.json:
+Add required bundles to `composer.json`:
+
 ~~~json
     "require": {
         ....
