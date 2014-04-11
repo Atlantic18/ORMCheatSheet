@@ -1,0 +1,1 @@
+[xml reference](http://propelorm.org/Propel/reference/schema.html#foreign-key-element)

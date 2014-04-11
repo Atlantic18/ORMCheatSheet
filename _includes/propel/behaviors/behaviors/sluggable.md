@@ -1,0 +1,1 @@
+The `sluggable` behavior allows a model to offer a human readable identifier that can be used for search engine friendly URLs.

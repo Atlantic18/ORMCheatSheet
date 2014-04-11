@@ -1,0 +1,1 @@
+The `timestampable` behavior allows you to keep track of the date of creation and last update of your model objects.

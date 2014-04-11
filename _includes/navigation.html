@@ -7,7 +7,7 @@
         <ul class="button-group radius">
           <li><a href="/" class="small button {% if framework != 'Doctrine 2' %}secondary{% endif %}">Doctrine 2</a></li>
           <li><a href="/doctrine/" class="small button {% if framework != 'Doctrine' %}secondary{% endif %}">Doctrine</a></li>
-          <li><a href="#" class="small button disabled {% if framework != 'Propel' %}secondary{% endif %}">Propel</a></li>
+          <li><a href="/propel/" class="small button {% if framework != 'Propel' %}secondary{% endif %}">Propel</a></li>
           <li><a href="#" class="small button disabled {% if framework != 'CakePHP' %}secondary{% endif %}">Cake PHP</a></li>
           <li><a href="/about/" class="small button {% if framework != 'about' %}secondary{% endif %}">About</a></li>
         </ul>
@@ -23,7 +23,7 @@
               {% if framework == 'Doctrine 2' %}{% include navigation_doctrine2.html %}{% endif %}
               {% if framework == 'Doctrine' %}{% include navigation_doctrine1.html %}{% endif %}
               {% if framework == 'CakePHP' %}{% include navigation_general.html %}{% endif %}
-              {% if framework == 'Propel' %}{% include navigation_general.html %}{% endif %}
+              {% if framework == 'Propel' %}{% include navigation_propel.html %}{% endif %}
             </dl>
           </div>
         </div>

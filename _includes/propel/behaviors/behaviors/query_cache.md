@@ -1,0 +1,1 @@
+The `query_cache` behavior gives a speed boost to Propel queries by caching the transformation of a PHP Query object into reusable SQL code.

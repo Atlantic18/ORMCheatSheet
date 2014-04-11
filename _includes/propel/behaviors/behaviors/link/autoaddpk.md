@@ -1,0 +1,1 @@
+[propel documentation](http://propelorm.org/Propel/behaviors/auto-add-pk)

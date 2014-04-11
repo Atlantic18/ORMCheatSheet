@@ -1,0 +1,1 @@
+Database element (package) with all properties defined:

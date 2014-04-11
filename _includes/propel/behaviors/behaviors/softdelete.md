@@ -1,0 +1,1 @@
+The `soft_delete` behavior overrides the deletion methods of a model object to make them 'hide' the deleted rows but keep them in the database.

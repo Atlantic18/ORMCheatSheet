@@ -1,0 +1,1 @@
+The `aggregate_column` behavior keeps a column updated using an aggregate function executed on a related table.

@@ -27,25 +27,25 @@
   {% capture panelIdMore %}panel{{GlobalElementCounter}}-4{% endcapture %}
 {% endif %}
 
-{%if usedtabs contains 'php' %}
-  {% assign isActive='php' %}
-  {% assign isPhp='true' %}
-   
-  {% capture panelIdPhp %}panel{{GlobalElementCounter}}-3{% endcapture %}
-{% endif %}
-
 {%if usedtabs contains 'yml' %}
   {% assign isActive='yml' %}
   {% assign isYml='true' %}
     
-  {% capture panelIdYml %}panel{{GlobalElementCounter}}-2{% endcapture %}
+  {% capture panelIdYml %}panel{{GlobalElementCounter}}-3{% endcapture %}
 {% endif %}
 
 {%if usedtabs contains 'xml' %}
   {% assign isActive='xml' %}
   {% assign isXml='true' %}
     
-  {% capture panelIdXml %}panel{{GlobalElementCounter}}-1{% endcapture %}
+  {% capture panelIdXml %}panel{{GlobalElementCounter}}-2{% endcapture %}
+{% endif %}
+
+{%if usedtabs contains 'php' %}
+  {% assign isActive='php' %}
+  {% assign isPhp='true' %}
+   
+  {% capture panelIdPhp %}panel{{GlobalElementCounter}}-1{% endcapture %}
 {% endif %}
 
 <!-- which content is used -->
@@ -68,14 +68,20 @@
       <div class="large-{% if imgfile != '' %}8{% else %}12{% endif %} columns">
         
         <dl class="tabs" data-tab>
+          {% if isPhp == 'true' %}<dd class="{{phpFlag}}"><a href="#{{panelIdPhp}}">Annotations</a></dd>{% endif %}
           {% if isXml == 'true' %}<dd class="{{xmlFlag}}"><a href="#{{panelIdXml}}">XML</a></dd>{% endif %}
           {% if isYml == 'true' %}<dd class="{{ymlFlag}}"><a href="#{{panelIdYml}}">YML</a></dd>{% endif %}
-          {% if isPhp == 'true' %}<dd class="{{phpFlag}}"><a href="#{{panelIdPhp}}">Annotations</a></dd>{% endif %}
           {% if isMore == 'true' %}<dd class="{{moreFlag}}"><a href="#{{panelIdMore}}">More info</a></dd>{% endif %}
           {% if isLink == 'true' %}<dd class="{{linkFlag}}"><a href="#{{panelIdLink}}">Links</a></dd>{% endif %}
         </dl>
         
         <div class="tabs-content">
+            {% if isPhp == 'true' %}
+                <div class="content {{phpFlag}}" id="{{panelIdPhp}}">
+                    {% assign format='php/' %}
+                    {% include getcode.html %}
+                </div>
+            {% endif %}
             {% if isXml == 'true' %}
                 <div class="content {{xmlFlag}}" id="{{panelIdXml}}">
                     {% assign format='xml/' %}
@@ -85,12 +91,6 @@
             {% if isYml == 'true' %}
                 <div class="content {{ymlFlag}}" id="{{panelIdYml}}">
                     {% assign format='yml/' %}
-                    {% include getcode.html %}
-                </div>
-           {% endif %}
-           {% if isPhp == 'true' %}
-                <div class="content {{phpFlag}}" id="{{panelIdPhp}}">
-                    {% assign format='php/' %}
                     {% include getcode.html %}
                 </div>
            {% endif %}

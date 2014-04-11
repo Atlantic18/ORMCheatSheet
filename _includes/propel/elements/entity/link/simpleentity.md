@@ -1,0 +1,2 @@
+- [xml mapping](http://propelorm.org/Propel/reference/schema.html#table-element)
+

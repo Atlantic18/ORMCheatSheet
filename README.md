@@ -1,5 +1,15 @@
-ORMCheatSheet
+ORM Cheatsheet
 =============
+
+ORM Cheatsheet is an ORM definition guide and reference manual. Purpose of the site is to aggregate ORM Definitions, basic commands for ORM frameworks and useful links to blogs, documentation or examples.
+
+All other frameworks are welcome, but because I, the Mighty Maintainer work with Doctrine, Doctrine2 and Propel, other frameworks will need contributors. Fork and edit, or let me know what you would like to add.
+
+contact:
+developers@ormcheatsheet.com
+
+
+####include section
 
 `{% include section.html %}` parameters:
 
@@ -15,10 +25,13 @@ ORMCheatSheet
 ####tab file structure:
 
 allways loaded (file must exist for page to build)
+
 ~~~
 rootdir\element\file
 ~~~
+
 loaded based on used tabs (file must exist if the format is specified by used tabs, or the page won't build)
+
 ~~~
 rootdir\element\xml\file
 rootdir\element\yml\file

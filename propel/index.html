@@ -5,13 +5,18 @@ overview: true
 ---
 
 <body>
+
 {% assign framework='Propel' %}
 {% include navigation.html %}
 
-<div class="bd">
+   <div class="bd">
     <div class="row">
       <div class="large-12 columns">
+        {% include /propel/getting-started.html %}
+        {% include /propel/model-elements.html %}
+        {% include /propel/behaviors.html %}
         {% include /designer/designer.html %}
+        {% include /propel/link-section.html %}
       </div>
     </div>
-</div>
+  </div>

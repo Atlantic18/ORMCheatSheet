@@ -1,0 +1,1 @@
+The `archivable` behavior gives model objects the ability to be copied to an archive table.

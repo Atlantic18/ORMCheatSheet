@@ -1,0 +1,1 @@
+[xml reference](http://propelorm.org/Propel/documentation/04-relationships.html#many-to-many-relationships)

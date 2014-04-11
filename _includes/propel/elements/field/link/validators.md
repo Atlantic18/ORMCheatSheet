@@ -1,0 +1,1 @@
+- [xml mapping](http://propelorm.org/Propel/documentation/05-validators.html)
