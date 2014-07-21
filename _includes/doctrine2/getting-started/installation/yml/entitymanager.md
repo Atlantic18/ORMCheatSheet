@@ -1,4 +1,4 @@
-~~~PHP
+~~~php
 <?php
 $paths = array("/path/to/yml-mappings");
 $config = Setup::createYAMLMetadataConfiguration($paths, $isDevMode);

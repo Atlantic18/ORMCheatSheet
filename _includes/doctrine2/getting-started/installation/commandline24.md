@@ -1,4 +1,4 @@
-~~~PHP
+~~~php
 <?php
 use Doctrine\ORM\Tools\Console\ConsoleRunner;
 

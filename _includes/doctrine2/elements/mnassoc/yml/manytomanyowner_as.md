@@ -1,4 +1,4 @@
-~~~YAML
+~~~yaml
 itemRecord:
   type: entity
   manyToMany:

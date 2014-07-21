@@ -1,6 +1,6 @@
 Edit and create an *yml* service file in your `app/config/doctrine_extensions.yml`
 
-~~~YAML
+~~~yaml
 # services to handle doctrine extensions
 # import it in config.yml
 services:
@@ -105,7 +105,7 @@ class DoctrineExtensionListener implements ContainerAwareInterface
 ~~~
 Do not forget to import **doctrine_extensions.yml** in your **app/config/config.yml** etc.:
 
-~~~YAML
+~~~yaml
 # file: app/config/config.yml
 imports:
     - { resource: parameters.yml }

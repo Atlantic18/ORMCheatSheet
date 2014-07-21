@@ -1,4 +1,4 @@
-~~~YAML
+~~~yaml
 itemRecord:
   type: mappedSuperclass
   repositoryClass: Doctrine\ORM\EntityRepository

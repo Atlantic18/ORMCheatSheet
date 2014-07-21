@@ -54,7 +54,7 @@ Doctrine_Core::loadModels('models');
 
 Use PHP script:
 
-~~~PHP
+~~~php
 // example.php
 Doctrine_Core::generateYamlFromModels('schema.yml', 'models');
 ~~~

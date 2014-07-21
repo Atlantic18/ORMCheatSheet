@@ -1,4 +1,4 @@
-~~~YAML
+~~~yaml
 book:
   type: entity
   extends: itemRecord

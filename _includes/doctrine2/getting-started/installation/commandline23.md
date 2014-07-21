@@ -1,4 +1,4 @@
-~~~PHP
+~~~php
 <?php
 // cli-config.php
 require_once 'my_bootstrap.php';

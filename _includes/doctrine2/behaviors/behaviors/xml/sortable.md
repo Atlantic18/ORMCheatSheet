@@ -1,4 +1,4 @@
-~~~XML
+~~~xml
 <?xml version="1.0" encoding="UTF-8"?>
 <doctrine-mapping 
  xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"

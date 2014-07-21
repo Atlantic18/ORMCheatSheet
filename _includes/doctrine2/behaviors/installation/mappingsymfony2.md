@@ -1,7 +1,7 @@
 If you use **translatable**, **tree** or **loggable**
 extension you will need to map those abstract mappedsuperclasses. Add mapping info to your `doctrine.orm` configuration, edit `app/config/config.yml`:
 
-~~~YAML
+~~~yaml
 doctrine:
     dbal:
 # your dbal config here
@@ -32,7 +32,7 @@ Found 3 entities mapped in entity manager default:
 if you create doctrine schema, it will add **ext_translations** table, which might not be useful
 to you also. To skip mapping of these entities, you can map **only superclasses**
 
-~~~YAML
+~~~yaml
 mappings:
     translatable:
         type: annotation
@@ -53,7 +53,7 @@ Found 2 entities mapped in entity manager default:
 
 To map every extension use:
 
-~~~YAML
+~~~yaml
 # only orm config branch of doctrine
 orm:
     auto_generate_proxy_classes: %kernel.debug%

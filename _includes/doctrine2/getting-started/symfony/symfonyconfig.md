@@ -1,6 +1,6 @@
 Configure `config/databases.yml` for database connection:
 
-~~~YAML
+~~~yaml
 all:
   doctrine:
     class: sfDoctrineDatabase
@@ -16,7 +16,7 @@ all:
 
 Below is an example of a simple User entity:
 
-~~~YAML
+~~~yaml
 # config/doctrine/schema.yml
  
 Models\User:
