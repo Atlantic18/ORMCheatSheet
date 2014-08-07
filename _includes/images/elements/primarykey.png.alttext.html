@@ -1,0 +1,1 @@
+ entity imported to Skipper visual model from schema definitions.

@@ -1,0 +1,1 @@
+ many-to-many association in Skipper generated diagram.

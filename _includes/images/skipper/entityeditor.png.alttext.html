@@ -1,0 +1,1 @@
+ entity details in Skipper visual editor.

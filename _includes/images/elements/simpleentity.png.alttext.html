@@ -1,0 +1,1 @@
+ entity displayed in Skipper ER diagram.

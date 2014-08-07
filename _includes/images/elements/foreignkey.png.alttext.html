@@ -1,0 +1,1 @@
+ association and its foreign key in Skipper ER diagram.

@@ -1,0 +1,1 @@
+ many to one association in Skipper visual model.

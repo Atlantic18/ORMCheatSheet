@@ -1,0 +1,1 @@
+ entity and its association shown is Skipper visual editor.

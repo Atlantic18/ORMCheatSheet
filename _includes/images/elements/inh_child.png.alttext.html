@@ -1,0 +1,1 @@
+ inheritance generated in the Skipper ER diagram.

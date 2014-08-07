@@ -1,0 +1,1 @@
+ entity in Skipper visual model

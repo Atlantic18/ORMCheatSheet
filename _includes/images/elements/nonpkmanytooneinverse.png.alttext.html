@@ -1,0 +1,1 @@
+ many to one association imported from schema definition files.

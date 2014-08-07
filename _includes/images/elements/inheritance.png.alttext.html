@@ -1,0 +1,1 @@
+ inheritance imported from schema definitions file by Skipper.

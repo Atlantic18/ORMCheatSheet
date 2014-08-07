@@ -1,0 +1,1 @@
+ inheritance displayed in Skipper visual model.
