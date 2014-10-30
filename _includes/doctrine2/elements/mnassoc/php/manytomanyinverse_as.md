@@ -2,27 +2,11 @@
 /**
  * @ORM\Entity
  */
-class author
+class itemRecord
 {
     /**
-     * @ORM\Id
+     * @ORM\ManyToMany(targetEntity="author", mappedBy="itemRecord")
      */
-    private $id;
-
-    /**
-     * @ORM\ManyToMany(targetEntity="itemRecord", inversedBy="author")
-     * @ORM\JoinTable(
-     *     name="itemRecordHasAuthor",
-     *     joinColumns={
-     *         @ORM\JoinColumn(
-     *             name="authorId",
-     *             referencedColumnName="id",
-     *             nullable=false
-     *         )
-     *     },
-     *     inverseJoinColumns={@ORM\JoinColumn(name="bookId", referencedColumnName="itemRecord_id", nullable=false)}
-     * )
-     */
-    private $itemRecord;
+    private $author;
 }
 ~~~
