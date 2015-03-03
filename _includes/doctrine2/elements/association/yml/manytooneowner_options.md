@@ -2,7 +2,7 @@
 itemRecord:
   type: entity
   fields:
-  oneToOne:
+  manyToOne:
     ean:
       targetEntity: ean
       inversedBy: itemRecord
