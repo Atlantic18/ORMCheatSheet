@@ -1,4 +1,4 @@
-###Include Doctrine libraries
+### Include Doctrine libraries
 
 Find the `Doctrine.php` file containing the core class in the lib folder where you downloaded Doctrine.
 
@@ -34,7 +34,7 @@ When you do SVN update you will get the Doctrine libraries updated:
 svn update lib/vendor
 ~~~
 
-###Require Doctrine Base Class
+### Require Doctrine Base Class
 
 Create a file named `bootstrap.php` and place the following code in the file:
 
@@ -46,7 +46,7 @@ Create a file named `bootstrap.php` and place the following code in the file:
 require_once(dirname(**FILE**) . '/lib/vendor/doctrine/Doctrine.php');
 ~~~
 
-###Register Autoloader
+### Register Autoloader
 
 Register the class <code>:php:class:`Doctrine`</code> autoloader function in the bootstrap file:
 
