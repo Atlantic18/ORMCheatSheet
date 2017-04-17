@@ -16,7 +16,7 @@ Add the following snippets to "deps" files:
         target=/bundles/Doctrine/Bundle/DoctrineBundle
 ~~~
 
-#### Composer
+####Composer
 
 Add the following dependencies to your projects composer.json file:
 

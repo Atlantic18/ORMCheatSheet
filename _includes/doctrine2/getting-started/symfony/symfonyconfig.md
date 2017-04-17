@@ -12,7 +12,7 @@ all:
         dbname: doctrine
 ~~~
 
-#### Configure Your Schema
+####Configure Your Schema
 
 Below is an example of a simple User entity:
 

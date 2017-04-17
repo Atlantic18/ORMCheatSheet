@@ -1,4 +1,4 @@
-#### Symfony configuration
+####Symfony configuration
 
 In order to use Propel configure few parameters in `app/config/config.yml` file.
 
@@ -11,7 +11,7 @@ propel:
     phing_path: "%kernel.root_dir%/../vendor/phing"
 ~~~
 
-#### Basic Configuration
+####Basic Configuration
 
 If you have just one database connection, use of this parameters is recommended:
 
@@ -30,7 +30,7 @@ propel:
 
 More details can be found in [Propel documentation]()
 
-#### Attributes, Options, Settings
+####Attributes, Options, Settings
 
 ~~~yaml
 # app/config/config*.yml
@@ -49,7 +49,7 @@ propel:
                     queries:        { query: "INSERT INTO BAR ('hey', 'there')" }
 ~~~
 
-#### Logging
+####Logging
 
 ~~~yaml
 # in app/config/config.yml
@@ -57,7 +57,7 @@ propel:
     logging:    %kernel.debug%
 ~~~
 
-#### Propel Configuration
+####Propel Configuration
 
 You can add a `app/config/propel.ini` file in your project to specify some configuration parameters.
 

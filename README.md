@@ -9,7 +9,7 @@ contact:
 developers@ormcheatsheet.com
 
 
-#### include section
+####include section
 
 `{% include section.html %}` parameters:
 
@@ -22,7 +22,7 @@ developers@ormcheatsheet.com
 - file - must be valid file name in *.md
 - usedtabs - specifies which tabs will be displayed, string, recognized contents: 'xml'; 'yml'; 'php'; 'more'; 'links'
 
-#### tab file structure:
+####tab file structure:
 
 allways loaded (file must exist for page to build)
 
@@ -44,7 +44,7 @@ rootdir\element\xml\file
 - to add new tab simply create the directory structure and edit the 'usedtabs' for appropriate section
 - to add new image, specify the 'imgsource/imgfile' for appropriate section
 
-#### header/variable structure:
+####header/variable structure:
 
 ~~~html
 <h1>Top level</h1>
