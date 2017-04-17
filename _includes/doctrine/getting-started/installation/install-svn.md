@@ -12,7 +12,7 @@ To update Doctrine execute the following command from your terminal:
 svn update
 ~~~
 
-### SVN Externals
+###SVN Externals
 
 Navigating to your checked out project:
 

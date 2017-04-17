@@ -43,7 +43,7 @@ $manager->setAttribute(Doctrine_Core::ATTR_AUTO_ACCESSOR_OVERRIDE, true);
 ~~~
 Now when you try and set a users password it will be md5 encrypted. 
 
-### Autoload models from directory
+###Autoload models from directory
 
 ~~~php
 // bootstrap.php

@@ -1,4 +1,4 @@
-#### Composer (recommended):
+####Composer (recommended):
 
 ~~~json
 {
@@ -12,7 +12,7 @@ Tip
 
 Different bundle version may be needed for different Symfony2 version. Check PropelBundle for details.
 
-#### Git, SVN, Git submodules, or the Symfony vendor management (deps file):
+####Git, SVN, Git submodules, or the Symfony vendor management (deps file):
 
 Clone this bundle in the `vendor/bundles/Propel` directory:
 
@@ -39,7 +39,7 @@ Instead of using svn, you can clone the unofficial Git repositories:
 
 Instead of doing this manually, you can use the Symfony vendor management via the deps file. If you are using a Symfony2 2.x.x version (actually, a version which is not 2.1 or above), be sure to deps.lock the PropelBundle to a commit on the 2.0 branch, which does not use the Bridge
 
-### Bundle registration
+###Bundle registration
 
 ~~~php
 <?php
