@@ -1,4 +1,4 @@
-####Database manipulation
+#### Database manipulation
 
 Create a database:
 
@@ -12,7 +12,7 @@ Drop a database:
 > php app/console propel:database:drop [--connection[=""]] [--force]
 ~~~
 
-####Migrations
+#### Migrations
 
 Generates SQL diff between the XML schemas and the current database structure:
 
@@ -44,7 +44,7 @@ Lists the migrations yet to be executed:
 > php app/console propel:migration:status
 ~~~
 
-####Table Manipulations
+#### Table Manipulations
 
 You can drop one or several tables:
 
@@ -52,7 +52,7 @@ You can drop one or several tables:
 > php app/console propel:table:drop [--force] [--connection[="..."]] [table1] ... [tableN]
 ~~~
 
-####Working with existing databases
+#### Working with existing databases
 
 Run the following command to generate an XML schema from your default database:
 
@@ -68,7 +68,7 @@ You can define which connection to use:
 
 This will create your schema file under `app/propel/generated-schemas`. 
 
-####The Fixtures
+#### The Fixtures
 
 Loading Fixtures:
 

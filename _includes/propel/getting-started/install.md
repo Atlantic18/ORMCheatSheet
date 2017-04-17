@@ -1,4 +1,4 @@
-####Composer
+#### Composer
 
 Create a new `composer.json` file at the root of your project's directory:
 
@@ -24,7 +24,7 @@ Install dependencies:
 $ php composer.phar install
 ~~~
 
-####Git
+#### Git
 
 ~~~
 $ git clone git://github.com/propelorm/Propel2 vendor/propel
@@ -37,7 +37,7 @@ $ cd myproject/vendor/propel
 $ git pull
 ~~~
 
-####Tarball
+#### Tarball
 
 ~~~
 $ cd myproject/vendor
