@@ -14,7 +14,7 @@ class itemRecord
      * )
      * @ORM\JoinColumn(
      *     name="publisherId",
-     *     referencedColumnName="publisher_id",
+     *     referencedColumnName="id",
      *     nullable=false,
      *     columnDefinition="itemRecord_publisherId",
      *     onDelete="CASCADE",
